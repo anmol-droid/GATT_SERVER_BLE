@@ -1,0 +1,33 @@
+I (9675) GATTS_DEMO: Entering light sleep now...
+I (9695) GATTS_DEMO: Woke up from light sleep.
+I (9695) GATTS_DEMO: Advertising start successfully
+I (12855) UART: Received: 09 08	
+I (12855) GATTS_DEMO: Confirm receive, status 0, attr_handle 42
+W (13655) BT_HCI: hcif disc complete: hdl 0x0, rsn 0x8
+I (13655) GATTS_DEMO: Disconnected, remote 42:49:9c:0c:7b:88, reason 0x08
+I (13665) GATTS_DEMO: Advertising start successfully
+I (13815) GATTS_DEMO: Connected, conn_id 0, remote 42:49:9c:0c:7b:88
+I (120015) UART: Received: STATUS 
+I (120015) GATTS_DEMO: STATUS command received
+I (120015) GATTS_DEMO: BLE Connected: Yes
+I (120015) GATTS_DEMO: Sleep Bypass Mode: Enabled
+I (315235) GATTS_DEMO: Sleep bypass mode active. Skipping sleep.
+I (320235) GATTS_DEMO: Sleep bypass mode active. Skipping sleep.
+I (325235) GATTS_DEMO: Sleep bypass mode active. Skipping sleep.
+I (238815) UART: Received: ENABLE
+I (238815) GATTS_DEMO: ENABLE command received
+I (243815) GATTS_DEMO: Inactivity timeout reached. Entering light sleep.
+I (243815) GATTS_DEMO: Entering light sleep now...
+I (243815) GATTS_DEMO: Woke up from light sleep.
+I (243835) GATTS_DEMO: Advertising start successfully
+I (363605) UART: Received: ENABLE
+I (363605) GATTS_DEMO: ENABLE command received
+I (368605) GATTS_DEMO: Inactivity timeout reached. Entering light sleep.
+I (368605) GATTS_DEMO: Entering light sleep now...
+I (368605) GATTS_DEMO: Woke up from light sleep.
+I (368615) GATTS_DEMO: Advertising start successfully
+I (376555) UART: Received: STATUS
+I (376555) GATTS_DEMO: STATUS command received
+I (376555) GATTS_DEMO: BLE Connected: Yes
+I (376555) GATTS_DEMO: Sleep Bypass Mode: Disabled
+I (381555) GATTS_DEMO: Inactivity timeout reached. Entering light sleep.
