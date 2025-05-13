@@ -1,0 +1,89 @@
+Hi, 
+
+This is assignment t do, we would like you to prepare a task. 
+
+Embedded Systems Assignment – BLE-UART Gateway with Low Power Handling
+Objective
+Design and implement a firmware application for a BLE-UART Gateway that meets the following functional and power efficiency requirements. This task simulates a real-world embedded product scenario.
+
+Task Overview
+You are required to:
+
+Initialize and configure BLE with a custom GATT service.
+
+Handle UART communication to receive messages from a PC terminal.
+
+Forward UART messages over BLE to a connected central device.
+
+Implement low-power mode handling with wake-up on activity.
+
+System Requirements
+1. BLE Functionality
+Initialize BLE stack (Nordic, STM32WB(Recommended), ESP32, etc.).
+
+Create a GATT service with 1 writable characteristic.
+
+Start advertising on startup.
+
+Accept connection from a central (e.g., mobile app like nRF Connect).
+
+Transmit messages from UART over BLE (write or notification).
+
+2. UART Handling
+UART initialized with DMA or interrupt mode.
+
+Receive messages (max 64 bytes) from PC terminal (e.g., Tera Term).
+
+On message reception, forward it immediately to the BLE central device.
+
+3. Low-Power Mode
+Enter low-power mode after 5 seconds of inactivity:
+
+No UART input
+
+No BLE data exchange
+
+Wake up on:
+
+UART RX event
+
+BLE connection or write event
+
+Use vendor-specific deep sleep (e.g., STOP2, system OFF, etc.).
+
+Expected Features
+BLE connect/disconnect handling.
+
+UART buffer management.
+
+Low-power transition logic and wake-up mechanism.
+
+Status LED or console logs for BLE status (optional).
+
+Bonus (Optional)
+Add command parsing on UART (e.g., BLEON, BLEOFF, STATUS).
+
+Indicate BLE connection state using LED or log.
+
+Demonstrate current reduction in low-power mode (log/screenshot).
+
+Deliverables (Submit as a ZIP or Git repo link)
+Complete source code (RTOS or baremetal)
+
+README with:
+
+Build instructions
+
+Platform used
+
+Test steps and assumptions
+
+Any relevant logs or screenshots
+
+Brief note on low-power implementation strategy
+
+Deadline
+Please submit within 3–4 days.
+
+Support
+You can assume STM32WB, nRF52, or ESP32 hardware. If actual hardware is unavailable, simulate a BLE connection and describe the flow with logs or mocks
